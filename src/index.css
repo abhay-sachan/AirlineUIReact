@@ -11,3 +11,163 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.horizontal{
+  list-style-type: none; /*this will remove the default bullet in the UL */
+  margin: 0;
+  padding:0;
+  overflow: hidden;
+  background-color:black;
+}
+
+.li{
+  float: left;
+}
+
+.li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding:14px 16px;/*from the top margin there should be 14px space and between each element there should be space of 16px*/
+  text-decoration: none;/*it will remove the underline for the text given in the anchor tag*/
+
+}
+
+.li a:hover{
+  background-color: yellow;
+  color:black;
+}
+.form{
+  display : flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  
+}
+.labels{
+  font-size: 10px;
+  line-height: 5px;
+  font-family: monospace;
+  font-weight: bolder;
+  opacity: 0.45;
+  color: black;
+}
+.inputs{
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 8px;
+  border: 2px solid;
+}
+.paper{
+  margin: auto;
+  margin-top: 50px;
+  position: relative;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: linear-gradient(rgba(35,146,129,0.85));
+
+}
+.btn{
+  background-color: rebeccapurple;
+}
+
+body
+{
+ margin:0px;
+ height:100%;
+ width:100%;
+ background:url('./Images/bg.jpg')no-repeat center center fixed; 
+ -webkit-background-size:cover;
+ -o-background-size:cover;
+ -moz-background-size:cover;
+ background-size:cover;
+}   
+
+.space{
+  
+  margin: 15px;
+  
+}
+
+.tc 
+{
+  background-color: aqua;
+}
+
+.header{
+  height: 100px;
+  display: flex;
+  width: auto;
+}
+
+.flighttext{
+  text-align: center;
+  margin-top: 25px;
+  font-size: 50px; 
+  padding-top: 18px;
+  color: brown;
+}
+.logo{
+  display: inline-flex;
+}
+
+.flightlogos{
+  display: flex;
+}
+
+.ad{
+  
+  margin: 5px;
+  padding: 24px;
+  
+}
+.spd{
+  height: 100px;
+  border: solid 2px #2222;
+  margin: 6px;
+  display:flex;
+}
+.spd:hover{
+  background-color:#22222222;
+  
+}
+.bd1{
+  margin-left: 5px;
+  padding: 2px;
+  
+}
+.bd2{
+  margin-left: 8px;
+  width: 180px;
+  padding-left: 60px;
+  
+}
+.bd3{
+  margin-left:12px;
+  width:300px;
+  
+  text-align: center;
+}
+.bd4{
+  margin-left: 12px;
+  
+  text-align: center;
+  padding: 20px;
+}
+.bd{
+  margin-left: 10px;
+  text-align: center;
+  width: 150px;
+  
+}
+.bds{
+  margin-left: 18px;
+  padding-top: 15px;
+  padding-left: 22px;
+  width: 220px;
+}
+
+
+
